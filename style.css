@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 150px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgba(19, 230, 245, 0.911);
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 0.5px;
+    float: left;
+    padding-top: 10px;
+
+}
+.logo:hover{
+    color: rgb(46, 250, 19);
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(235, 243, 243);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 270px;
+
+}
+.search .srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #e6be0d;
+    margin-top: 17px;
+    color: rgb(226, 151, 80);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(149, 240, 31);
+    border: 2px solid rgb(57, 250, 73);
+    margin-top: 17px;
+    color: rgb(63, 8, 114);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.search:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin:auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(85, 243, 22);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.cn:hover{
+    background-color: rgb(240, 167, 32);
+}
+.content span{
+    color: greenyellow;
+    font-size: 65px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    margin-top: 120px;
+    background: linear-gradient(to top,rgb(0,0,0.8)50%,rgb(0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius:10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family:sans-serif;
+    text-align: center;
+    color: rgb(219, 9, 107);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid greenyellow;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color:white;
+    font-family: Arial;
+}
+.btnn{
+    width:240px;
+    height: 40px;
+    background: greenyellow;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: rgb(236, 147, 114);
+    color: rgb(210, 217, 224);
+    
+}
+.btnn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color:orangered;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color:white;
+
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 27px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+
+}
+.icons ion-icon:hover{
+    color:greenyellow;
+}
